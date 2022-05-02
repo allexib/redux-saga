@@ -2,11 +2,12 @@ import {takeEvery} from 'redux-saga/effects'
 import {INCREASE_COUNT, DECREASE_COUNT} from "../constants";
 
 export function* workerSaga() {
-
+    console.log('request 1')
+    yield
 }
 
 export function* watchClickSaga() {
-    yield takeEvery(INCREASE_COUNT, () => console.log('request 1'))
+    yield takeEvery(INCREASE_COUNT, workerSaga)
 
     /*yield take(DECREASE_COUNT)
     console.log('request 2')*/
