@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67cc5da9-01d7-4ea3-a658-0a9d7c14c557" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/actionCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/actionCreator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/news.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/sagas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sagas/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -56,8 +49,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/redux/sagas/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="84">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -270,12 +263,12 @@
       <option name="presentableId" value="Default" />
       <updated>1651328032278</updated>
       <workItem from="1651328033746" duration="4642000" />
-      <workItem from="1651494799348" duration="8621000" />
+      <workItem from="1651494799348" duration="8891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13263000" />
+    <option name="totallyTimeSpent" value="13533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1331" y="0" width="1240" height="1031" extended-state="0" />
@@ -463,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/sagas/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
