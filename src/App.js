@@ -1,29 +1,23 @@
 import {useSelector, useDispatch} from 'react-redux'
-import {increaseCount, decreaseCount,getLatestNews} from "./redux/actions/actionCreator";
-
+import {getNews} from "./redux/actions/actionCreator";
+import News from './components/news/news';
 
 const App = () => {
-    const count = useSelector(store => store?.counter?.count)
-    const dispatch = useDispatch()
+    const latestNews = useSelector(store => store?.news?.latestNews || []);
+    const popularNews = useSelector(store => store?.news?.popularNews || []);
+    const dispatch = useDispatch();
 
-    const handleIncrease = () => {
-        dispatch(increaseCount())
-    }
-    const handleDecrease = () => {
-        dispatch(decreaseCount())
-    }
     const handleNews = () => {
-        dispatch(getLatestNews())
-    }
+        dispatch(getNews());
+    };
 
-    return (
+    return(
         <div>
-            <button onClick={handleIncrease}>+1</button>
-            <button onClick={handleDecrease}>-1</button>
             <button onClick={handleNews}>Get News</button>
-            <h1>{count}</h1>
+            <News news={latestNews} title="Latest News" />
+            <News news={popularNews} title="Popular News" />
         </div>
-    )
-}
+    );
+};
 
-export default App
+export default App;
