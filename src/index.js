@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {Provider} from 'react-redux'
-import {Router} from 'react-router'
-import {Route, Routes} from 'react-router-dom'
+// import {Router} from 'react-router'
+import {Route, Routes,BrowserRouter as Router} from 'react-router-dom'
 import {createBrowserHistory} from 'history'
 import Home from './pages/home/home'
 import LatestNews from './pages/latest-news/latest-news'
@@ -22,15 +22,9 @@ root.render(
             <Router history={history}>
                 <App>
                     <Routes>
-                        <Route path="/" exact>
-                            <Home />
-                        </Route>
-                        <Route path="/latest-news" exact>
-                            <LatestNews />
-                        </Route>
-                        <Route path="/popular-news" exact>
-                            <PopularNews />
-                        </Route>
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/latest-news" element={<LatestNews/>} />
+                        <Route path="/popular-news" element={<PopularNews/>} />
                     </Routes>
                 </App>
             </Router>
